@@ -8,4 +8,23 @@
     height: 90vh;
     background-image: linear-gradient(to right, blue, white);
     border: 1px blue solid;
+    z-index: 0;
+}
+
+img {
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    left: 25%;
+}
+
+.round {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, blue, yellow);
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    z-index: 2;
 }
