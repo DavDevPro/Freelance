@@ -1,0 +1,11 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.blue__box {
+    width: 70%;
+    height: 90vh;
+    background-image: linear-gradient(to right, blue, white);
+    border: 1px blue solid;
+}
